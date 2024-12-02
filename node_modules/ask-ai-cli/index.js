@@ -10,7 +10,7 @@ import gradient from "gradient-string";  // Import gradient-string
 dotenv.config(); // Load environment variables from a .env file
 
 // Initialize Google Generative AI with the API key
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const genAI = new GoogleGenerativeAI("AIzaSyBSmYqNgIGt56-NNWwajQ5fyqr969LRLA0"|| process.env.GEMINI_API_KEY);
 
 // Helper function to interact with Gemini AI
 const interactWithGeminiAI = async (modelName, prompt) => {
